@@ -659,8 +659,12 @@ footer {
     margin: auto 0;
   }
 
-  .phone_call:hover .number {
-    visibility: hidden;
+  .number {
+    color: white;
+    position: absolute;
+    left: -100px;
+    bottom: -30px;
+    visibility: visible;
   }
 
   .title {
