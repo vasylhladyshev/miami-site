@@ -705,6 +705,7 @@ footer {
   }
 
   .photos {
+    
     margin: 29px 0 auto;
     padding: 0 20px;
     display: flex;
@@ -713,7 +714,6 @@ footer {
   }
 
   .photos_block {
-   
     margin: 0 auto;
     display: flex;
     gap: 16px;
@@ -721,13 +721,15 @@ footer {
   }
 
   .images {
+    overflow: auto;
     margin: 0 auto;
     display: flex;
     gap: 20px;
+
   }
 
   .images img {
-    width: 50%;
+    width: calc(50% - 10px);
     height: 131px;
     object-fit: cover;
     border-radius: 10px;
